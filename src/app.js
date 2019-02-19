@@ -3,10 +3,14 @@ import { connect } from 'react-redux'
 import { moviesList, directorsList } from './actions'
 import { bindActionCreators } from 'redux'
 
+import MoviesList from './components/moviesList'
+
 class App extends Component {
 
 
     componentWillMount(){
+        this.props.moviesList();
+        this.props.directorsList();
 
     }
 
@@ -16,7 +20,7 @@ class App extends Component {
         console.log(this.props)
         return (
             <div>
-                Hello
+                <MoviesList {...this.props} />
             </div>
         );
     }
