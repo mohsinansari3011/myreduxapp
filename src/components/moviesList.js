@@ -13,8 +13,7 @@ const renderMovies = (movies) =>(
     console.log(props)
     return (
         <div>
-            {//renderMovies(props.data.movies)
-            }
+            {renderMovies(props.data.movies)}
         </div>
     );
 };
