@@ -3,9 +3,9 @@ import React from 'react';
 const MoviesList = (props) => {
 
 
-const renderMovies = (movies) =>(
-    movies ?
-        movies.map((item,i) => (
+const renderMovies = (moviesx) =>(
+    moviesx ?
+        moviesx.map((item,i) => (
         <div key={i}>{item.name}</div>
     )) : null
 )
