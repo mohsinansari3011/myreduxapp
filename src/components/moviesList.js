@@ -2,14 +2,6 @@ import React from 'react';
 
 const MoviesList = (props) => {
 
-
-const renderMovies = (movies) =>(
-    movies ?
-        movies.map((item,i) => (
-        <div key={i}>{item.name}</div>
-    )) : null
-)
-
 const renderLatestMovies = (movies) => (
     movies ?
         movies.map((item, i) => (
