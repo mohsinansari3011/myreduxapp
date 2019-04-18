@@ -20,7 +20,7 @@ const renderLatestMovies = (movies) => (
     console.log(props)
     return (
         <div>
-            {renderMovies(props.data.movies)}
+            {renderLatestMovies(props.data.movies)}
         </div>
     );
 };
