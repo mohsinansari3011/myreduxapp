@@ -7,7 +7,7 @@ import App from './app'
 
 const createStoreWithMiddleware = applyMiddleware()(createStore)
 
-//ReactDOM.render(<Provider store={createStoreWithMiddleware(reducers)} > <App /></Provider>, document.getElementById('root'));
+ReactDOM.render(<Provider store={createStoreWithMiddleware(reducers)} > <App /></Provider>, document.getElementById('root'));
 
 
 
