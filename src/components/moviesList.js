@@ -17,4 +17,4 @@ const renderLatestMovies = (movies) => (
     );
 };
 
-export default MoviesList;
+//export default MoviesList;
