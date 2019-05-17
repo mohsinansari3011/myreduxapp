@@ -16,8 +16,8 @@ export function directorsList() {
     return {
         type: 'DIR_LIST',
         payload: [
-            { id: '1', name: 'abc' },
-            { id: '2', name: 'cde' }
+            // { id: '1', name: 'abc' },
+            // { id: '2', name: 'cde' }
         ]
     }
 
